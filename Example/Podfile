@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XProgressRing_Example' do
+  pod 'XProgressRing', :path => '../'
+
+  target 'XProgressRing_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
