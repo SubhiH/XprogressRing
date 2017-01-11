@@ -71,10 +71,14 @@ as you know, when you are showing progressView for the user, you have to stop th
 ```swift
 xProgressRing.stopAnimation()
 ```
- <br />
+<br />
 ## Author
 
 Soubhi Hadri, soubhi.hadri@gmail.com
+
+## Dependencies
+
+[KDCircularProgress] (https://github.com/kaandedeoglu/KDCircularProgress):
 
 ## License
 
