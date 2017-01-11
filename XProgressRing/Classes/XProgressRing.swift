@@ -28,12 +28,12 @@ public class XProgressRing: UIView {
     @IBInspectable var progress_speed:CGFloat=0.6;
     @IBInspectable var progress_color:UIColor=UIColor.white;
     
-    var progress1: KDCircularProgress!
-    var progress2: KDCircularProgress!
-    var progress3: KDCircularProgress!
-    var progress4: KDCircularProgress!
-    var separableView : UIView!;
-    var isAnimating: Bool = false;
+    private var progress1: KDCircularProgress!
+    private var progress2: KDCircularProgress!
+    private var progress3: KDCircularProgress!
+    private var progress4: KDCircularProgress!
+    private var separableView : UIView!;
+    private var isAnimating: Bool = false;
     
     
     
@@ -124,7 +124,7 @@ public class XProgressRing: UIView {
         
     }
     
-    func addSeparableView(view:UIView){
+    public func addSeparableView(view:UIView){
         separableView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height));
         separableView.center.x = view.center.x;
         separableView.center.y = view.center.y;
@@ -134,7 +134,7 @@ public class XProgressRing: UIView {
     }
     
     
-    func startAnimation(ProgressMode:ProgressMode=ProgressMode.quarterModeProgress){
+    public func startAnimation(ProgressMode:ProgressMode=ProgressMode.quarterModeProgress){
         addProgresses(progressMode: ProgressMode)
         isAnimating = true;
         self.isHidden = false;
@@ -143,6 +143,7 @@ public class XProgressRing: UIView {
     
     func animate(progressMode:ProgressMode=ProgressMode.quarterModeProgress){
         if progressMode==ProgressMode.quarterModeProgress {
+
             self.progress1.animate(fromAngle:0, toAngle: 90, duration: TimeInterval(self.progress_speed)) { completed in
                 if completed {
                     
@@ -166,7 +167,7 @@ public class XProgressRing: UIView {
                     
                 } else {
                 }
-            }
+                }
             
             
             self.progress3.animate(fromAngle:0, toAngle: 90, duration: TimeInterval(self.progress_speed)) { completed in
@@ -275,8 +276,9 @@ public class XProgressRing: UIView {
         }
     }
     
-    func stopAnimation(){
+    public func stopAnimation(){
         isAnimating = false;
+        separableView.isHidden=true
         self.isHidden = true;
     }
     

@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import XProgressRing
 
 class ViewController: UIViewController {
 
+    @IBOutlet var xProgressRing: XProgressRing!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        print(self.view.frame)
+        xProgressRing.addSeparableView(view: self.view);
+        xProgressRing.startAnimation(ProgressMode: ProgressMode.quarterModeProgress);
+        
+//        xProgressRing.stopAnimation()
+
     }
 
     override func didReceiveMemoryWarning() {

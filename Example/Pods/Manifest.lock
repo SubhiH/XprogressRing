@@ -1,0 +1,16 @@
+PODS:
+  - XProgressRing (0.1.0)
+
+DEPENDENCIES:
+  - XProgressRing (from `../`)
+
+EXTERNAL SOURCES:
+  XProgressRing:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XProgressRing: 3d28e1158a98839e041d6e1cbee480903134e9a8
+
+PODFILE CHECKSUM: 09bb5e6c441d8eb878672f3f4f6f00c891086923
+
+COCOAPODS: 1.0.1

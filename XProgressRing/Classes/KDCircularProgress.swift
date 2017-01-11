@@ -5,6 +5,7 @@
 //  Created by Kaan Dedeoglu on 1/14/15.
 //  Copyright (c) 2015 Kaan Dedeoglu. All rights reserved.
 //
+
 import UIKit
 
 public enum KDCircularProgressGlowMode {
@@ -188,7 +189,6 @@ public class KDCircularProgress: UIView, CAAnimationDelegate {
     
     override public init(frame: CGRect) {
         super.init(frame: frame)
-        isUserInteractionEnabled = false
         setInitialValues()
         refreshValues()
         checkAndSetIBColors()
@@ -202,7 +202,6 @@ public class KDCircularProgress: UIView, CAAnimationDelegate {
     required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
         translatesAutoresizingMaskIntoConstraints = false
-        isUserInteractionEnabled = false
         setInitialValues()
         refreshValues()
     }

@@ -1,0 +1,6 @@
+framework module Pods_XProgressRing_Example {
+  umbrella header "Pods-XProgressRing_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
