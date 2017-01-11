@@ -14,9 +14,9 @@ It has three modes as shown in the screenshots above : <br />
 3-quarterModeProgress : four circles. <br />
 
 ## Screenshots 
-<img src="https://github.com/SubhiH/XprogressRing/blob/master/screenShots/demo1.gif" alt="" width="230" height="200"/>
-<img src="https://github.com/SubhiH/XprogressRing/blob/master/screenShots/demo2.gif" alt="" width="240" height="200"/>
-<img src="https://github.com/SubhiH/XprogressRing/blob/master/screenShots/demo3.gif" alt="" width="240" height="200"/>
+<img src="https://github.com/SubhiH/XprogressRing/blob/master/docs/screenShots/demo1.gif" alt="" width="230" height="200"/>
+<img src="https://github.com/SubhiH/XprogressRing/blob/master/docs/screenShots/demo2.gif" alt="" width="240" height="200"/>
+<img src="https://github.com/SubhiH/XprogressRing/blob/master/docs/screenShots/demo3.gif" alt="" width="240" height="200"/>
 
 ## Example
 
@@ -42,7 +42,7 @@ just drag and drop into your project the files:<br/>
 After the installation, you can use it straight with xib/storyboard. <br />
 1- Drag and drop View in your xib/storyboard and give constraints you want. It is important to set the same value for width and height. <br />
 2-In the inpector set the custome class as "XProgressRing". <br />
-<img src="https://github.com/SubhiH/XprogressRing/blob/master/screenShots/s1.png" alt="" width="260" height="200"/>
+<img src="https://github.com/SubhiH/XprogressRing/blob/master/docs/screenShots/s1.png" alt="" width="260" height="200"/>
 
 3-In the attribute inpector tab, set the value for: <br />
     1- Raduis = the raduis for the view. It is important to set this value the same as width and height to get rounded              circle. <br />
@@ -50,7 +50,7 @@ After the installation, you can use it straight with xib/storyboard. <br />
     3- Progress thickness : the thickness of animated track that keeps cicling. <br />
     4- Progess Color = the color of the progess. <br />
     5- BackgroundColor = the color of the view (the silent part in XProgressRing). <br /> <br />
-<img src="https://github.com/SubhiH/XprogressRing/blob/master/screenShots/s2.png" alt="" width="280" height="550"/> <br />
+<img src="https://github.com/SubhiH/XprogressRing/blob/master/docs/screenShots/s2.png" alt="" width="300" height="500"/> <br />
 
 4- In your code and after link the view with @IBOutlet <br />
 
@@ -73,9 +73,6 @@ as you know, when you are showing progressView for the user, you have to stop th
 xProgressRing.stopAnimation()
 ```
 <br />
-## Author
-
-Soubhi Hadri, soubhi.hadri@gmail.com
 
 ## Dependencies
 
