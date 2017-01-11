@@ -8,7 +8,7 @@
 
 A simple customised ProgressView (LoadingView) with three modes.
 
-<img src="https://github.com/SubhiH/XprogressRing/blob/master/screenShots/demo1.gif" alt="" width="240" height="200"/>
+<img src="https://github.com/SubhiH/XprogressRing/blob/master/screenShots/demo1.gif" alt="" width="230" height="200"/>
 <img src="https://github.com/SubhiH/XprogressRing/blob/master/screenShots/demo2.gif" alt="" width="240" height="200"/>
 <img src="https://github.com/SubhiH/XprogressRing/blob/master/screenShots/demo3.gif" alt="" width="240" height="200"/>
 <br />
@@ -41,7 +41,7 @@ just drag and drop into your project the files:
 After the installation, you can use it straight with xib/storyboard. <br />
 1- Drag & drop View in your xib/storyboard and give constraints you want. It is important to set the same value for width and height. <br />
 2-In the inpector set the custome class as "XProgressRing". <br />
-<img src="https://github.com/SubhiH/XprogressRing/blob/master/screenShots/s1.png" alt="" width="240" height="200"/>
+<img src="https://github.com/SubhiH/XprogressRing/blob/master/screenShots/s1.png" alt="" width="260" height="200"/>
 
 3-In the attribute inpector tab, set the value for: <br />
 1- Raduis = the raduis for the view. It is important to set this value the same as width and height to get rounded circle. <br />
@@ -49,7 +49,7 @@ After the installation, you can use it straight with xib/storyboard. <br />
 2- Progress thickness : the thickness of animated track that keeps cicling. <br />
 4- Progess Color = the color of the progess. <br />
 5- BackgroundColor = the color of the view (the silent part in XProgressRing). <br /> <br />
-<img src="https://github.com/SubhiH/XprogressRing/blob/master/screenShots/s2.png" alt="" width="300" height="600"/> <br />
+<img src="https://github.com/SubhiH/XprogressRing/blob/master/screenShots/s2.png" alt="" width="280" height="550"/> <br />
 
 4- In your code and after link the view with @IBOutlet <br />
 
