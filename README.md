@@ -40,17 +40,17 @@ just drag and drop into your project the files:<br/>
 
 ## Implementation
 After the installation, you can use it straight with xib/storyboard. <br />
-1- Drag and drop View in your xib/storyboard and give constraints you want. It is important to set the same value for width and height. <br />
+1-Drag and drop View in your xib/storyboard and give constraints you want. It is important to set the same value for width and height. <br />
 2-In the inpector set the custome class as "XProgressRing". <br />
 <img src="https://github.com/SubhiH/XprogressRing/blob/master/docs/screenShots/s1.png" alt="" width="260" height="200"/>
 
 3-In the attribute inpector tab, set the value for: <br />
 <ul>
-  <li>Raduis = the raduis for the view. It is important to set this value the same as width and height to get rounded circle.</li>
+  <li>Raduis : the raduis for the view. It is important to set this value the same as width and height to get rounded circle.</li>
   <li>Progress speed : the speed of cicling animation.</li>
   <li>Progress thickness : the thickness of animated track that keeps cicling.</li>
-  <li>Progess Color = the color of the progess.</li>
-  <li>BackgroundColor = the color of the view (the silent part in XProgressRing).</li>
+  <li>Progess Color : the color of the progess.</li>
+  <li>BackgroundColor : the color of the view (the silent part in XProgressRing).</li>
 </ul>
 <img src="https://github.com/SubhiH/XprogressRing/blob/master/docs/screenShots/s2.png" alt="" width="300" height="500"/> <br />
 
@@ -67,10 +67,10 @@ After the installation, you can use it straight with xib/storyboard. <br />
  <br />
 In the `startAnimation` you should pass the mode for ProgressView (fullModeProgress ,halfModeProgress ,quarterModeProgress and the default one is `quarterModeProgress`).
  <br />
--To stop the animation and hide progressView call: `stopAnimation()`.
+To stop the animation and hide progressView call: `stopAnimation()`.
  <br />
 ## Important feature
-as you know, when you are showing progressView for the user, you have to stop the user from interacting with the component in below the progressView, so you can call `addSeparableView` to insert separated view to disable ineracting : <br />
+When you are showing progressView for the user, you have to stop the user from interacting with the component in below the progressView, so you can call `addSeparableView` to insert separated view to disable ineracting : <br />
 ```swift
 xProgressRing.stopAnimation()
 ```
@@ -82,4 +82,4 @@ xProgressRing.stopAnimation()
 
 ## License
 
-XProgressRing is available under the MIT license. See the LICENSE file for more info.
+XProgressRing is available under the MIT license. See the <a href="https://github.com/SubhiH/XprogressRing/blob/master/LICENSE">LICENSE file</a>  for more info.
