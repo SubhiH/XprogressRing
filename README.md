@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/XProgressRing.svg?style=flat)](http://cocoapods.org/pods/XProgressRing)
 [![Platform](https://img.shields.io/cocoapods/p/XProgressRing.svg?style=flat)](http://cocoapods.org/pods/XProgressRing)
 [![](http://img.shields.io/badge/iOS-8.0%2B-blue.svg)]() [![](http://img.shields.io/badge/Swift-3-blue.svg)]() 
+[![](http://img.shields.io/badge/Swift-4-blue.svg)]() 
 
 
 A simple customised ProgressView (LoadingView).
